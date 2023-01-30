@@ -10,8 +10,10 @@ A = [];
 %               and then set them accordingly. 
 
 
-
-
+A = zeros(5, 5)
+for i = 1:5 
+    A(i,i) = 1
+end
 
 
 
